@@ -8,6 +8,12 @@ Clone this repository, with it's submodules using the command
 git clone --recurse-submodules https://github.com/rokokoo/rosi_elfin.git
 ```
 
+Install required components, using the following command
+
+```bash
+rosdep install -yr --from-paths src --ignore-src
+```
+
 ## Building
 
 There is a build order error, in the `elfin_robot` package, so you need to run `catkin build` twice to get all the packages to compile.
