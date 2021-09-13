@@ -1,0 +1,3 @@
+[submodule "src/elfin_robot"]
+	path = src/elfin_robot
+	url = https://github.com/hans-robot/elfin_robot.git
