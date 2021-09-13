@@ -16,3 +16,16 @@ There is a build order error, in the `elfin_robot` package, so you need to run `
 catkin build; source devel/setup.bash; catkin build --unbuilt; source devel/setup.bash
 ```
 
+## Visualize the model
+
+To run the model in Gazebo
+
+```bash
+roslaunch samk_description gazebo.launch
+```
+
+To run the model in Rviz
+
+```bash
+roslaunch samk_description display.launch
+```
