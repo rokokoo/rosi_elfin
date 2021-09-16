@@ -5,7 +5,7 @@
 Clone this repository, with it's submodules using the command
 
 ```bash
-git clone https://github.com/rokokoo/rosi_elfin.git
+git clone --recurse-submodules https://github.com/rokokoo/rosi_elfin.git
 ```
 
 Install required components, using the following command
