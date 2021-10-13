@@ -10,7 +10,7 @@
 		<arg name="paused" value="false"/>
 	</include>
 
-	<param name="robot_description" command="$(find xacro)/xacro --inorder '$(find samk_description)/urdf/$(arg model).xacro'" />
+	<param name="robot_description" command="$(find xacro)/xacro --inorder '$(find samk_description)/urdf/$(arg model).xacro.urdf'" />
 	<node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description -model robot" respawn="false" output="screen" />
 
 </launch>
